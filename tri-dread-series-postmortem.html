@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Dread Series Postmortem</title>
+<!-- HTML5 slide by Tri Sulistiono -->
+
+<section>
+<header><small>BEKRAF Developer Day Batam</small></header>
+<h1>Dread Series Postmortem</h1>
+<footer>
+<img src="images/tridh.gif"><br>
+<b>Tri Sulistiono</b><br>
+Digital Happiness<br>
+<span class="blink" style="color:#ccc"><small><small><small>Wireless Presenter compatible<br>
+Press F5 to Start, Left/Right Arrows to Navigate</small></small></small></span><br>
+<small><small>Aston Batam Hotel &amp; Residence, 24 Maret 2018</small></small>
+</footer>
+</section>
+
+<section>
+<p><b>post·mor·tem</b><br>
+<i>noun</i><br><br>
+<del>An examination of a dead body to determine the cause of death</del>.</p>
+</section>
+
+<section>
+<p><b>post·mor·tem</b><br>
+<i>noun</i><br><br>
+<mark>An analysis or discussion of an event</mark> held soon after it has occurred,
+<del>especially in order to determine why it was a failure</del>.</p>
+</section>
+
+<section>
+<p><b>Dread Series Postmortem</b><br><br>
+<small><i>&bull; This is NOT a technical postmortem.</i></small><br>
+<small><i>&bull; It is a talk about <b>our history</b>, to inspire you.</i></small><br>
+<small><i>&bull; Hopefully we can learn a few things from it.</i></small><br><br>
+<span class="grey"><small>This talk is well correlated with other talks today.</small></span></p>
+</section>
+
+<section>
+<p><b>You've learn:</b><br>
+<small>&bull; Game industry business</small><br>
+<small>&bull; How to start your studio</small><br>
+<small>&bull; How to monetize your game</small><br><br>
+<small><i>Let's see now what your path might have been,<br>
+<b>by telling you our journey so far.</b></i></small></p>
+</section>
+
+<section>
+<h1><br>Introduction</h1>
+</section>
+
+<section>
+<figure>
+<img src="images/tris.jpg">
+<figcaption><small><span class="red"><b>Father of two kids</b></span><br>
+<small><small><span class="grey">Love playing <i>point &amp; click</i> games<br>
+e.g. DOOM, Quake, Counter-Strike,<br>
+addicted to <b>Metal Gear Online</b>.</span></small></small><br><br><br>
+<span class="orange">@<b>Digital Happiness</b><br><small>since the very beginning</small></span></small>
+</figcaption>
+</figure>
+</section>
+
+<section>
+<h3>Digital Happiness</h3>
+<ul>
+<li>How many of you who knew about <b>Digital Happiness</b>?<br><br>
+<li>An Award Winning Game Development Studio
+  <ul>
+  <li><b>Best Startup Company</b>, Bubu Awards, 2013.
+  <li>Top 20 <b>Rising Global Stars</b>, Forbes ID, 2016.
+  </ul>
+<li>Initiated by two person (<b>Rachmad Imron</b>, <b>Vadi Vanadi</b>)
+  <ul>
+  <li>and another two (<b>Dwi Arif</b>, <b>Sukmadi Rafiuddin</b>)
+  <li>that have no technical/programming skills (yet).
+  </ul>
+<li class="grey">So, what was holding you from creating your own? ;)
+</ul>
+</section>
+
+<section>
+<figure>
+<img src="images/dh.jpg">
+</figure>
+</section>
+
+<section>
+<h3>DreadOut</h3>
+<ul>
+<li>Now, how many of you who knew about <b>DreadOut</b>?
+<li>The 1st Indonesian Game that's approved by Steam.
+<li>The 1st Indonesian's that's internationally crowdfunded.
+  <ul>
+  <li>$29.067 USD raised (<i>from $25.000 USD goal</i>)
+  </ul>
+<li>The Best Selling Indonesian Game on Steam, so far.
+  <ul>
+  <li>~ 300k copies sold (DreadOut) [SteamSpy, 2018]
+  <li>~ 150k copies sold (DreadOut: KOTD) [SteamSpy]
+  <li>~ 452k copies sold across the series [SteamSpy]
+  </ul>
+<li class="grey">Your game will sold more, beating this record. Ameen!
+</ul>
+</section>
+
+<section>
+<figure>
+<video onended="z.l();" src="videos/intro.mp4"></video>
+<figcaption class="grey">DreadOut</figcaption>
+</figure>
+</section>
+
+<section>
+<h3>Dread Series</h3>
+<table>
+<tr>
+<td><img src="images/50.gif"></td>
+<td><img src="images/test.jpg"><br><b>TEST</b><br>2012</td>
+<td><img src="images/demo.jpg"><br><b>DEMO</b><br>2013</td>
+<td><img src="images/act1.jpg"><br><b>ACT1</b><br>2014</td>
+<td><img src="images/act2.jpg"><br><b>ACT2</b><br>2015</td>
+<td><img src="images/kotd.jpg"><br><b>KOTD</b><br>2016</td>
+<td><img src="images/devr.jpg"><br><b>DEVR</b><br>2017</td>
+<td><img src="images/new.png"><br>(new)<br>2018</td>
+<td><img src="images/50.gif"></td>
+</tr>
+</table>
+<table width="100%">
+<tr><td><br>Our game development was started in 2011</td></tr>
+<tr><td>but our paths were crossed a long long time before...</td></tr>
+<tr><td><span class="grey">a long way back in our college days.</span></td></tr>
+</table>
+</section>
+
+<section>
+<h1>Part One</h1>
+<h2>How To Seed Your Game Development Studio</h2>
+<br>
+<h2>Easy! Just make a lot of friends.</h2>
+<br>
+<table width="100%">
+<tr><td>Especially those who love to play games.</td></tr>
+<tr><td><span class="grey">Chances are they wanted to create games too.</span></td></tr>
+</table>
+</section>
+
+<section>
+<h3>Digital Happiness, B.C.</h3>
+<ul>
+<li>All of the initial members were from the <b>same campus</b>.<br><br>
+<li>We like to <b>play games together</b>, <i>dated back to the early Quake days.</i><br><br>
+<li><b>We already dreaming about creating games</b>.
+  <ul>
+  <li>But there is no gamedev scene back then.
+  <li>No available gamedev tools to use either.
+  <li>No marketplace for indies beyond <i>Shareware</i> too.
+  </ul>
+</ul>
+</section>
+
+<section>
+<h3>Digital Happiness, B.C., cont.</h3>
+<ul>
+<li>Back in the day, <b>we don't know <i>how to ... games!</i></b>
+  <ul>
+  <li>Now we have Google.<br>
+  </ul>
+<li><b>We start early</b>. While we're still an active student ...
+  <ul>
+  <li>We founded our each own Startup.
+  <li class="grey">Student Movement brought Angel Investors.
+  </ul>
+<li><b>We are self-taught</b>, and so can you!
+  <ul>
+  <li>It's easier now to self-teach thanks to the internet.
+  <li class="grey">Want to be certified? Dicoding Academy can help :)
+    <ul>
+    <li class="grey">go to <b>dicoding.com</b> and choose your class!
+    </ul>
+  </ul>
+</ul>
+</section>
+
+<section>
+<h3>Digital Happiness, B.C., fast forward 2004.</h3>
+<ul>
+<li>Our 'Startup' collaborated on a game-like project.
+  <ul>
+  <li><b>IRIS Design</b>, by Rachmad Imron, produce it.
+  <li><b>MALAKA9</b>, a company I co-found, develop it.
+  </ul>
+<li>To build a car driving simulation software and hardware.<br><br>
+<li><b>It was a huge challenge!</b>
+  <ul>
+  <li>The project requires a <i>believable physics</i> with correct <i>force-feedback</i> on the <i>steering wheel</i>.
+  <li>No Unity3D yet, Unreal Engine is no cheap, so<br><b>we build our own game &amp; physics engine</b>!
+  </ul>
+</ul>
+</section>
+
+<section>
+<figure>
+<video onended="z.l();" src="videos/smart.mp4"></video>
+<figcaption class="grey">S.M.A.R.T.<br><br>
+Simulasi Mobil Aktif Real Time<br><br>
+This triggered back our urge to create<br>
+a video game!
+</figcaption>
+</figure>
+</section>
+
+<section>
+<h3>Digital Happiness, B.C., fast forward 2010.</h3>
+<ul>
+<li><b>Vadi Vanadi</b> created <b>Jurig Escape</b>.<br><br>
+<li><b>Rachmad Imron</b> coined <b>Digital Happiness</b>.<br><br>
+<li class="red">Further split-up!
+  <ul>
+  <li class="grey">I moved to <b>Batam</b>, doing freelance works.
+  <li class="grey">A fellow S.M.A.R.T. developer founded his startup.
+  </ul>
+<li class="orange">But don't worry, we'll be reunited later :)<br><br>
+<li>For now, just enjoy the great <b>Escape</b>! <span class="grey">Are you ready?</span>
+</ul>
+</section>
+
+<section>
+<figure>
+<video onended="z.l();" src="videos/jurig.mp4"></video>
+<figcaption class="grey">Jurig Escape</figcaption>
+</figure>
+</section>
+
+<section>
+<h1>Part Two</h1>
+<h2>How To Start Your Game Development Studio</h2>
+<br>
+<h2>Easy! Just call your friends :)</h2>
+<br>
+<table width="100%">
+<tr><td>I mean it. It's easier than doing a recruitment!</td></tr>
+<tr><td><span class="grey">at the very least we can tell each other stories,<br>
+friends did that all the time didn't they?</span></td></tr>
+</table>
+</section>
+
+<section>
+<h3>Digital Happiness, The Beginning.</h3>
+<ul>
+<li><b>Jurig Escape</b> gathered a positive response.
+  <ul>
+  <li>It boosting our confidence.
+    <ul>
+    <li><i>"We can create games that people love!"</i>
+    </ul>
+  </ul>
+<li>Initial team were assembled.
+  <ul>
+  <li class="grey">But there is no fund for a proper salary.
+    <ul>
+    <li>So, friends were called in.
+    </ul>
+  </ul>
+<li>The idea is to iterate over Jurig Escape.
+  <ul>
+  <li>To create a full game product to sell.
+    <ul>
+    <li class="grey">Proper salary + bonus will follow sales.
+    </ul>
+  </ul>
+</ul>
+</section>
+
+<section>
+<table width="100%">
+<tr><td><h2><br><br></h2></td></tr>
+<tr><td><img src="images/crew.jpg"></td></tr>
+<tr><td><h2 class="grey">Small Reunion</h2></td></tr>
+</table>
+</section>
+
+<section>
+<h1>Part Three</h1>
+<h2>How To Create Your First Game</h2>
+<br>
+<h2>Just finish it.</h2>
+<br>
+<h2 class="grey">Spoiler: It's HARD to create a finished game!</h2>
+<br>
+<table width="100%"><tr><td><span class="grey">Start SMALL. Focus on core mechanics first.</span></td></tr></table>
+</section>
+
+<section>
+<h3>Game Mechanics Development</h3>
+<ul>
+<li>Small scoped development.
+  <ul>
+  <li class="grey">Only do 1 or 2 levels/maps.
+  </ul>
+<li>Focus on core mechanics.
+  <ul>
+  <li class="grey">Only do basic features unique to the game type.
+  </ul>
+<li>Player mirroring, critize yourself.
+  <ul>
+  <li class="grey"><i>"Do I like to play this?"</i>
+  </ul>
+<li>Love to work, but don't love your work!
+  <ul>
+  <li class="grey">If it is a trash, throw it!
+  </ul>
+</ul>
+</section>
+
+<section>
+<figure>
+<video onended="z.l();" src="videos/dev.mp4"></video>
+<figcaption class="grey">Prototyping</figcaption>
+</figure>
+</section>
+
+<section>
+<h3>Game Mechanics Development, cont.</h3>
+<ul>
+<li>Choose a working game mechanics.<br><br>
+  <ul>
+  <li class="grey">Weight in fun factor, uniqueness, and player base.<br><br>
+  <li class="grey">Reference other games with similar mechanics.<br><br>
+    <ul>
+    <li class="grey"><i>Its fan base can be your best investment.</i><br><br>
+    </ul>
+  </ul>
+<li>Complete it!
+</ul>
+</section>
+
+<section>
+<h1>Part Four</h1>
+<h2>Market-Test Your Game</h2>
+<br>
+<h2 class="grey">Gauge your game potentials</h2>
+<br>
+<h2 class="grey">Make a name for your game/team</h2>
+<br>
+</section>
+
+<section>
+<h3>Test-Game Development</h3>
+<ul>
+<li>Create a playable game from player's perspective.
+  <ul>
+  <li class="grey">Iterate over the choosen game mechanics.
+  </ul>
+<li>Show it to the world, spread the news.
+  <ul>
+  <li class="grey">Attend game related events as much as you can.
+  <li class="grey">Let everyone to play, gather feedbacks.
+    <ul>
+    <li class="grey"><i>Free Testers :)</i>
+    </ul>
+  </ul>
+<li>Create questionaires.<br><br>
+<li>Provide little merchandises for reward.
+</ul>
+</section>
+
+<section>
+<figure>
+<video onended="z.l();" src="videos/test.mp4"></video>
+<figcaption class="grey">DreadOut Test</figcaption>
+</figure>
+</section>
+
+<section>
+<h3>DH-2012: Test-Game Feedback Analysis</h3>
+<ul>
+<li>People acknowledged our uniqueness.
+  <ul>
+  <li class="grey">Indonesian ghosts &amp; folklores.
+  </ul>
+<li>Players loved the night/dark level better.
+  <ul>
+  <li class="grey">It is more scary that way.
+  </ul>
+<li>The game need to be variative.
+  <ul>
+  <li class="grey">Players get bored after a while.
+  </ul>
+<li>The game is too short.
+  <ul>
+  <li class="grey">Well, it's just a test, after all :)
+  </ul>
+</ul>
+</section>
+
+<section>
+<h1>Part Five</h1>
+<h2>How To Fund Your Game</h2>
+<br>
+<h2 class="grey">The Billionaire way: Use your own money</h2>
+<br>
+<h2>The People way: Search for investor!</h2>
+<br>
+<table width="100%"><tr><td><span class="grey">Create a fully functional, features complete, Game DEMO!</span></td></tr></table>
+</section>
+
+<section>
+<h3>DH-2012: DreadOut New Development Plan</h3>
+<ul>
+<li>Develop a story arc.
+  <ul>
+  <li class="grey">Still based on Indonesian ghosts &amp; folklores.
+  </ul>
+<li>Implement more SFXs and background musics.
+  <ul>
+  <li class="grey">We only use ambient background all this time.
+  </ul>
+<li>More levels and ghost enemies.
+  <ul>
+  <li class="grey">Also need to add puzzles and quests.
+  </ul>
+<li>More weapons and items to use.
+  <ul>
+  <li class="grey">Player need to solve puzzle to have some items.
+  </ul>
+</ul>
+</section>
+
+<section>
+<h3>DH-2012: Development Funding</h3>
+<ul>
+<li>The team is divided into two groups.
+  <ul>
+  <li class="grey">Gaming team, to develop the game.
+  <li class="grey">Commissioned project team, to support the dev.
+    <ul>
+    <li class="grey">Codenamed <i>"Team Patjoel"</i>
+    </ul>
+  </ul>
+<li>Looking for investors.
+  <ul>
+  <li class="grey">But many investors seem to doubt our game.
+    <ul>
+    <li class="grey">PC Game market is unknown to them.
+    </ul>
+  </ul>
+<li>Try running a crowdfunding through <b>indiegogo.com</b>
+  <ul>
+  <li class="grey">Need to create a complete game demo!
+  </ul>
+</ul>
+</section>
+
+<section>
+<h3>DH-2012: Demo Development</h3>
+<ul>
+<li>Developed using <b>Unity3D</b> engine.<br><br>
+<li>Implement features from test feedbacks.
+  <ul>
+  <li class="grey">More ghosts/enemies variation.
+  <li class="grey">Adding puzzle quests and items.
+  </ul>
+<li>Art assets improvements.<br><br>
+<li>Adding support for social media sharing.
+  <ul>
+  <li class="grey">Allow players to upload screenshot to Facebook.
+  </ul>
+</ul>
+</section>
+
+<section>
+<figure>
+<video onended="z.l();" src="videos/demo.mp4"></video>
+<figcaption class="grey"><br><br><br><br><br><br><br>User Reaction</figcaption>
+</figure>
+</section>
+
+
+<section>
+<h1>Part Six</h1>
+<h2>How To Publish Your First Game</h2>
+<br>
+<h2>Self Publishing</h2>
+<br>
+<h2 class="grey">Using a Publisher</h2>
+<br>
+<table width="100%"><tr><td><span class="grey">Create a fully functional, playable, Game!</span></td></tr></table>
+</section>
+
+<section>
+<h3>DH-2013: DreadOut Funding &amp; Publishing</h3>
+<ul>
+<li>We decided to <b>Self Publish</b>.<br><br>
+<li>Lucky for us, VALVE introduced <b>Steam Greenlight</b>.
+  <ul>
+  <li class="grey">Indie developer can submit their games.
+  <li class="grey">Steam users will then vote the games.
+  <li class="grey">Top voted games are allowed to be sold on Steam.
+  </ul>
+<li>We run the campaign in parallel with crowdfunding.
+  <ul>
+  <li class="grey">To secure development fund and market channel.
+  </ul>
+<li>We ended up both campaign with success!
+</ul>
+</section>
+
+<section>
+<h3>DH-2013: DreadOut New Development</h3>
+<ul>
+<li>With both campaign ended with success, we run our game development full throtle.
+  <ul>
+  <li class="grey">To fulfill our promise to the game backers.
+  </ul>
+<li>We're trying to adopt better development practice.
+  <ul>
+  <li class="grey">We brought <b>Agile Methodology</b> to the team.
+  <li class="grey">To enable faster development iteration.
+    <ul>
+    <li class="grey">To fail early!
+    </ul>
+  </ul>
+<li>We set up a better development infrastructure.
+  <ul>
+  <li class="grey">We run <b>Subversion</b> server to keep track changes,
+  <li class="grey">and using <b>Trac</b> for tasking &amp; reporting
+  </ul>
+</ul>
+</section>
+
+<section>
+<h3>DH-2013: DreadOut Split</h3>
+<ul>
+<li>We underestimated our initial game design.
+  <ul>
+  <li class="grey">Time is too short to keep our promise.
+    <ul>
+    <li class="grey">To release the full finished game.
+    </ul>
+  </ul>
+<li>We decided to release the game as an episodic.
+  <ul>
+  <li class="grey">After we consulted our backers.
+  </ul>
+<li>The current finished state will be released as ACT1.<br><br>
+<li>The rest will be released as ACT2.
+  <ul>
+  <li class="grey">The DEMO is rebranded as ACT0.
+  </ul>
+</ul>
+</section>
+
+<section>
+<figure>
+<video onended="z.l();" src="videos/act1.mp4"></video>
+<figcaption class="grey">ACT1</figcaption>
+</figure>
+</section>
+
+<section>
+<h1>Part Seven</h1>
+<h2>How To Live Up To User Expectation</h2>
+<br>
+<h2>Know Your Self</h2>
+<br>
+<h2 class="grey">Cut The Impossible</h2>
+</section>
+
+<section>
+<h3>DH-2014: DreadOut ACT2 Development</h3>
+<ul>
+<li>With prior experience, we cut some part of the game.
+  <ul>
+  <li class="grey">It will be released later to complement the story.
+  </ul>
+<li>We redevelop our game framework.
+  <ul>
+  <li class="grey">To have better support for language localization.
+  <li class="grey">To integrate all ACTs into one game.
+    <ul>
+    <li class="grey">Related to Steam publishing technicalities.
+    </ul>
+  </ul>
+<li>We upgraded engine, server and related softwares.
+</ul>
+</section>
+
+<section>
+<figure>
+<video onended="z.l();" src="videos/act2.mp4"></video>
+<figcaption class="grey">ACT2</figcaption>
+</figure>
+</section>
+
+<section>
+<h1>Part Eight</h1>
+<h2>How To Capitalize On Your New IP</h2>
+<br>
+<h2>Create Sequels</h2>
+<br>
+<h2 class="grey">Maintain The Core</h2>
+</section>
+
+<section>
+<h3>DH-2015: Keepers Of The Dark Development</h3>
+<ul>
+<li>Basically we develop what we left in the original design.
+  <ul>
+  <li class="grey">As stated before, built to complement the story.
+  </ul>
+<li>We redevelop yet another new game framework.
+  <ul>
+  <li class="grey">To implement new game design direction.
+  </ul>
+<li>Developed by a smaller team
+  <ul>
+  <li class="grey">The other team did another game and research.
+  </ul>
+<li>This is our fastest and smoothest development.
+  <ul>
+  <li class="grey">Team members are already familiar with our tools.
+  </ul>
+</ul>
+</section>
+
+<section>
+<figure>
+<video onended="z.l();" src="videos/kotd.mp4"></video>
+<figcaption class="grey">KOTD</figcaption>
+</figure>
+</section>
+
+<section>
+<h1>Part Nine</h1>
+<h2>How To Embrace New Technology</h2>
+<br>
+<h2>Acquire The Expertise</h2>
+<br>
+<h2 class="grey">Make Use Developer Relation</h2>
+<table width="100%"><tr><td><span class="grey">If possible, ask the vendor to fund your development cost</span></td></tr></table>
+</section>
+
+<section>
+<h3>DH-2016: DreadEye VR Development</h3>
+<ul>
+<li>Actually, we did VR research since Oculus DK1 days.
+  <ul>
+  <li class="grey">Dated back to June, 2013, when our DK1 arrived.
+    <ul>
+    <li class="grey">when we are still developing DreadOut.
+    </ul>
+</ul>
+<li>We did initial research in Unity.<br><br>
+<li>We switched to Unreal Engine 4 for the final game.<br><br>
+<li>We created few spin-offs to fund the development.
+  <ul>
+  <li class="grey">Basically some vendor specific product/bundle.
+  </ul>
+</ul>
+</section>
+
+<section>
+<figure>
+<video onended="z.l();" src="videos/devr.mp4"></video>
+</figure>
+</section>
+
+<section>
+<h3>Dread Series Concluded</h3>
+<table>
+<tr>
+<td><img src="images/50.gif"></td>
+<td><img src="images/test.jpg"><br><b>TEST</b><br>2012</td>
+<td><img src="images/demo.jpg"><br><b>DEMO</b><br>2013</td>
+<td><img src="images/act1.jpg"><br><b>ACT1</b><br>2014</td>
+<td><img src="images/act2.jpg"><br><b>ACT2</b><br>2015</td>
+<td><img src="images/kotd.jpg"><br><b>KOTD</b><br>2016</td>
+<td><img src="images/devr.jpg"><br><b>DEVR</b><br>2017</td>
+<td><img src="images/new.png"><br>(new)<br>2018</td>
+<td><img src="images/50.gif"></td>
+</tr>
+</table>
+<table width="100%">
+<tr><td><br><b>We succesfully released a game each year!<b></td></tr>
+<tr><td>With the complexity and scope of our titles, it is an acomplishment.</td></tr>
+<tr><td><span class="grey">Note: During this time, we're also creating many other products as well.</span></td></tr>
+<tr><td><span class="grey">Sometimes two/more projects even running in parallel.</span></td></tr>
+</table>
+</section>
+
+<section>
+<h1>What's Next?</h1>
+<br>
+<h2>I can't discuss our 2018 project yet :p</h2>
+<br>
+<h2 class="grey">But we're striving for creating the best game experience possible</h2>
+<table width="100%">
+<tr><td><span class="grey">Researching new technologies. Creating new tools.<br>
+Better management. Simplify our workflows, etc.</span></td></tr>
+</table>
+</section>
+
+<section>
+<figure>
+<video onended="z.l();" src="videos/lipsync.mp4"></video>
+<figcaption class="grey">Lips Sync Research
+</figcaption>
+</figure>
+</section>
+
+<section>
+<figure>
+<video onended="z.l();" src="videos/mocap.mp4"></video>
+<figcaption class="grey">Motion Capture<br>
+Research
+</figcaption>
+</figure>
+</section>
+
+<section>
+<h1>The Takeaways</h1>
+<h2>Embrace</h2>
+<h2>Start Now</h2>
+<h2>Ship It!</h2>
+<br>
+<h2 class="grey">Learn &amp; Share</h2>
+</section>
+
+<section>
+<h1>Any Questions?</h1>
+<br>
+<h2 class="grey">twitter.com/stricmp</h2>
+<h2 class="grey">facebook.com/stricmp</h2>
+<h2 class="grey">steamcommunity.com/id/stricmp</h2>
+<br>
+<h2 class="grey">stricmp@gmail.com</h2>
+</section>
+
+<section>
+<figure>
+<video src="thankyou.mp4"></video>
+</figure>
+</section>
+
+<!-- HTML5 slide engine by Tri S. All rights reserved. -->
+<style>table,td{border:0px;border-collapse:collapse;text-align:center}figure,figure>img,figure>video,section{height:100%;width:100%}footer,h1,h2,header{text-align:center}figure,footer,header,section{width:100%}body,figure>*,footer,header,section{position:absolute}body,html{overflow:hidden}html{background-color:#fff}body{border-radius:0;font-family:arial,serif;background:url(images/screen.png)}del.next:not([active]),mark.next:not([active]){visibility:visible;background-color:inherit}section{font-size:2rem;transition:left .4s linear 0s;left:-150%;pointer-events:none}h1{margin:80px 0 30px;font-size:5rem}figcaption,p{font-size:3rem}section>h3{margin:50px 50px 40px;border-bottom:.1px solid}ol,ul{margin:40px 100px 0}li>ul,ol{margin:0 0 15px 50px;list-style-image:none}del.next:not([active]){text-decoration:none}p{margin:75px 75px 0}figure{background-color:#000}figcaption{margin:70px;color:#ff0}section[aria-selected]{left:0;pointer-events:auto}section[aria-selected]~section{left:+150%}header{background-color:#fff;top:0}footer{bottom:0}mark{background-color:#ff0;color:#000}*{margin:0;padding:0;box-sizing:border-box}body{width:800px;top:50%;left:50%;display:none;height:450px}html{font-size:12px}body.slide{display:block}.next:not([active]){visibility:hidden}</style>
+<style>.red{color:darkred}.orange{color:darkorange}.grey{color:grey}.blink{animation-duration:1s;animation-name:blink;animation-iteration-count:infinite;animation-timing-function:steps(2,start)}@keyframes blink{80%{visibility:hidden}}</style>
+<script>var z={a:-1,b:0,c:null};function d(){z.d(),window.onkeydown=z.e.bind(z),window.onhashchange=z.g.bind(z),window.onresize=z.f.bind(z)}z.d=function(){document.body.className="slide",document.body.style.cursor='none',this.c=Array.prototype.slice.call($$("body > section")),this.g(),this.f()},z.f=function(){var e=document.body,t=e.clientWidth/window.innerWidth,i=e.clientHeight/window.innerHeight,n="scale("+1/Math.max(t,i)+")";e.style.transform=n,e.style.marginTop=-e.clientHeight/2+"px",e.style.marginLeft=-e.clientWidth/2+"px"},z.g=function(){var e=window.location.hash.split("#"),t=1,i=0;2==e.length&&(t=~~e[1].split(".")[0],(i=~~e[1].split(".")[1])>z.c[t-1].$$(".next").length&&(i=0,t++)),t!=this.a&&this.h(t),i!=this.b&&this.i(i)},z.h=function(e){this.a=e;var t,i=$("section[aria-selected]"),n=$("section:nth-of-type("+this.a+")");i&&(i.removeAttribute("aria-selected"),(t=i.$("video"))&&t.pause());n?(n.setAttribute("aria-selected","true"),(t=n.$("video"))&&t.play()):this.a=-1},z.i=function(e){this.b=e;var t=Array.prototype.slice.call(this.c[this.a-1].$$(".next")).sort(function(e,t){return Number(e.getAttribute("order"))-Number(t.getAttribute("order"))})[this.b-1];return t?t.setAttribute("active",!0):this.j(this.a,0),t},z.j=function(e,t){t=0!=t&&void 0!==t?"."+t:".0",window.location.hash="#"+e+t},z.e=function(e){e.altKey||e.ctrlKey||e.metaKey||e.shiftKey||(80!=e.keyCode&&33!=e.keyCode&&37!=e.keyCode&&38!=e.keyCode&&8!=e.keyCode||(e.preventDefault(),this.k()),78!=e.keyCode&&13!=e.keyCode&&34!=e.keyCode&&39!=e.keyCode&&40!=e.keyCode&&32!=e.keyCode||(e.preventDefault(),this.l()),27!=e.keyCode&&35!=e.keyCode||(e.preventDefault(),this.n()),36!=e.keyCode&&83!=e.keyCode&&116!=e.keyCode||(e.preventDefault(),this.m()),70!=e.keyCode&&116!=e.keyCode||(e.preventDefault(),this.o()),66!=e.keyCode&&190!=e.keyCode&&87!=e.keyCode&&188!=e.keyCode||(e.preventDefault(),this.p()))},z.k=function(){1!=this.a&&this.j(this.a-1,this.c[this.a-2].$$(".next[active]").length)},z.l=function(){this.a>=this.c.length&&this.b>=this.c[this.a-1].$$(".next").length||(this.b>=this.c[this.a-1].$$(".next").length?this.j(this.a+1,this.c[this.a].$$(".next[active]").length):this.j(this.a,this.b+1))},z.m=function(){this.j(1,0)},z.n=function(){var e=this.c.length,t=this.c[e-1].$$(".next").length;this.j(e,t)},z.o=function(){var e=$("html"),t=e.requestFullscreen||e.requestFullScreen||e.mozRequestFullScreen||e.webkitRequestFullScreen;t&&t.apply(e)},z.p=function(){var e=$("section[aria-selected]");if(e){var t=e.$("video");t&&(t.ended||t.paused?t.play():t.pause())}},window.onload=d;var $=(HTMLElement.prototype.$=function(e){return this.querySelector(e)}).bind(document),$$=(HTMLElement.prototype.$$=function(e){return this.querySelectorAll(e)}).bind(document);$$.forEach=function(e,t){Array.prototype.forEach.call(e,t)};</script>
